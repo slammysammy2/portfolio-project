@@ -1,31 +1,27 @@
-h1 {
+body {
+  background-color: #07112c;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 250px;
+  padding-bottom: 200px;
+}
+
+.hero h1 {
+  font-size: 80px;
   font-family: "Noto Serif Toto", sans-serif;
   color: white;
+  -webkit-text-stroke: 2px black;
 }
 
 p {
   font-family: "Crimson", sans-serif;
+  font-weight: bolder;
   color: white;
-  font-size: 30px;
+  font-size: 40px;
+  -webkit-text-stroke: 2px black;
 }
-
-.hero {
-  background-color: #07112c;
-  text-align: center;
-}
-
-.hero h1 {
-  font-size: 60px;
-}
-
-.btn-branding {
-  background: white;
-  border-radius: rgb(250, 178, 23);
-
-  font-size: 20px;
-  color: #07112c;
-}
-
 .button-54 {
   font-family: "Oswald", sans-serif;
   font-size: 16px;
