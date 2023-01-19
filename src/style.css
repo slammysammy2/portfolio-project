@@ -1,9 +1,12 @@
 h1 {
   font-family: "Noto Serif Toto", serif;
+  font: 200px;
+  color: white;
 }
 
 p {
   font-family: "Crimson Text", serif;
+  color: white;
 }
 
 .hero {
