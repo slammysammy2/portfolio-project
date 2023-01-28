@@ -71,6 +71,17 @@ body {
   margin-left: 100px;
 }
 
+#cv {
+  justify-content: center;
+}
+
+#shanghai {
+  justify-content: center;
+  height: 450px;
+  width: 380px;
+  border-style: solid;
+}
+
 h1 {
   position: absolute;
   font-family: "Oswald", sans-serif;
