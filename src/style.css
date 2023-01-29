@@ -82,6 +82,64 @@ body {
   border-style: solid;
 }
 
+#contact-lukas {
+  justify-content: center;
+  text-align: center;
+  text-shadow: 5px 5px black;
+  -webkit-text-stroke: 1px black;
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  font-size: 70px;
+  color: white;
+  margin: 90px;
+}
+
+#london {
+  width: 30%;
+  height: 180%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  border-style: solid;
+  opacity: 0.6;
+  position: relative;
+}
+
+#london::after {
+  content: "";
+  position: absolute;
+  opacity: 0.6;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+.content-container {
+  margin-top: -400px;
+}
+
+.contact {
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: 23px;
+}
+
+h4 {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  text-shadow: 3px 3px black;
+  -webkit-text-stroke: 1px black;
+}
+
 h1 {
   position: absolute;
   font-family: "Oswald", sans-serif;
