@@ -10,13 +10,13 @@ body {
 }
 
 nav {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #3a444d;
   margin-right: -15px;
 }
 
 .navbar-text {
   font-size: 25px;
-  margin-left: 30px;
+  margin-left: 45px;
   font-weight: lighter;
   font-family: "Oswald", sans-serif;
   color: white;
