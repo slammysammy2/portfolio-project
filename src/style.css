@@ -79,7 +79,8 @@ nav a:hover {
   justify-content: left;
   overflow: hidden;
   color: #000;
-  margin: 120px;
+  margin-top: 50px;
+  margin-left: 200px;
 }
 
 .about-section-content {
@@ -116,15 +117,14 @@ nav a:hover {
   margin-left: 100px;
 }
 
-#cv {
-  justify-content: center;
-}
-
 #shanghai {
-  justify-content: center;
   height: 450px;
   width: 380px;
   border-style: solid;
+}
+
+#cv {
+  margin-left: 200px;
 }
 
 .content-container {
