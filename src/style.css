@@ -34,7 +34,13 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 30px;
-  margin-left: 40px;
+  margin-left: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+  nav ul {
+    margin-right: 35px;
+  }
 }
 
 nav a {
