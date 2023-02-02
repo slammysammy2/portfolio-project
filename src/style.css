@@ -54,6 +54,19 @@ nav a:hover {
   transition: all 100ms ease-in-out;
 }
 
+footer .email-link {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  text-decoration: none;
+  color: gray;
+  transition: all 100ms ease-in-out;
+}
+
 #cctv {
   width: 18%;
   height: 180%;
@@ -76,7 +89,7 @@ nav a:hover {
 .about-section {
   text-align: left;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   overflow: hidden;
   color: #000;
   margin-top: 50px;
@@ -87,6 +100,11 @@ nav a:hover {
   color: white;
   font-size: 19px;
   word-spacing: 2px;
+}
+
+#about-par {
+  color: black;
+  font-style: normal;
 }
 
 #about-h2 {
