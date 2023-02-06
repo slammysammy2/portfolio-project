@@ -5,13 +5,18 @@
 }
 
 body {
-  background-color: #252e35;
+  background: linear-gradient(to right, #29323c, #485563);
+  width: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: sans-serif;
 }
 
 nav {
-  background-color: #3a444d;
+  background: #3a444d;
   margin-right: -15px;
+  border-style: solid;
 }
 
 .navbar-text {
@@ -54,6 +59,10 @@ nav a:hover {
   transition: all 100ms ease-in-out;
 }
 
+footer {
+  margin: 50px 0;
+}
+
 footer .email-link {
   text-decoration: none;
   color: white;
@@ -63,6 +72,18 @@ footer .email-link {
 
 footer .email-link:hover {
   text-decoration: none;
+  color: gray;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a {
+  margin: 0 7px;
+  padding: 7px 7px;
+  font-size: 25px;
+  color: white;
+}
+
+footer .social-links a:hover {
   color: gray;
   transition: all 100ms ease-in-out;
 }
