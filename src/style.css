@@ -13,6 +13,12 @@ body {
   font-family: sans-serif;
 }
 
+.homepage-nav li {
+  display: inline;
+  margin-left: 155px !important;
+  font-size: 25px;
+}
+
 nav {
   background: #3a444d;
   margin-right: -15px;
