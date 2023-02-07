@@ -25,6 +25,7 @@ nav {
   font-weight: lighter;
   font-family: "Oswald", sans-serif;
   color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 nav ul {
@@ -33,6 +34,7 @@ nav ul {
   font-family: "Oswald", sans-serif;
   padding-top: 10px;
   margin-right: 50px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 nav li {
@@ -68,6 +70,7 @@ footer .email-link {
   color: white;
   font-size: 24px;
   text-align: center;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 footer .email-link:hover {
@@ -81,6 +84,7 @@ footer .social-links a {
   padding: 7px 7px;
   font-size: 25px;
   color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 footer .social-links a:hover {
@@ -108,7 +112,7 @@ footer .social-links a:hover {
 }
 
 .about-section {
-  text-align: left;
+  text-align: justify;
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -124,14 +128,15 @@ footer .social-links a:hover {
 }
 
 #about-par {
-  color: black;
+  color: white;
   font-style: normal;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 #about-h2 {
   margin-top: 130px;
   position: absolute;
-  text-shadow: 5px 5px black;
+  text-shadow: 3px 3px black;
   -webkit-text-stroke: 1px black;
   font-family: "Oswald", sans-serif;
   font-weight: normal;
@@ -141,10 +146,11 @@ footer .social-links a:hover {
 #headshot {
   height: 400px;
   width: 250px;
-  border-style: solid;
+  box-shadow: 0px 0px 2px 2px #000000;
   margin: 140px;
   margin-top: 230px;
   margin-left: 100px;
+  opacity: 0.8;
 }
 
 #hunan-china {
