@@ -160,12 +160,14 @@ footer .social-links a:hover {
   margin: 140px;
   margin-top: 15px;
   margin-left: 100px;
+  opacity: 0.8;
 }
 
 #shanghai {
   height: 450px;
   width: 380px;
   border-style: solid;
+  opacity: 0.8;
 }
 
 #cv {
