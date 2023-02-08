@@ -5,7 +5,11 @@
 }
 
 body {
-  background: linear-gradient(to right, #29323c, #485563);
+  background: linear-gradient(
+    180.2deg,
+    rgb(30, 33, 48) 6.8%,
+    rgb(74, 98, 110) 131%
+  );
   width: 100%;
   margin: 0;
   background-repeat: no-repeat;
@@ -21,9 +25,9 @@ body {
 }
 
 nav {
-  background: #3a444d;
   margin-right: -15px;
   border-style: solid;
+  border-color: black;
 }
 
 .navbar-text {
