@@ -15,7 +15,8 @@ body {
 
 .homepage-nav li {
   display: inline;
-  margin-left: 155px !important;
+  margin-left: 0px;
+  padding-left: 150px;
   font-size: 25px;
 }
 
