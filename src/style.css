@@ -5,11 +5,7 @@
 }
 
 body {
-  background: linear-gradient(
-    180.2deg,
-    rgb(30, 33, 48) 6.8%,
-    rgb(74, 98, 110) 131%
-  );
+  background: linear-gradient(to top, #09203f 0%, #537895 100%);
   width: 100%;
   margin: 0;
   background-repeat: no-repeat;
@@ -18,16 +14,13 @@ body {
 }
 
 .homepage-nav li {
-  display: inline;
-  margin-left: 0px;
-  padding-left: 150px;
   font-size: 25px;
+  list-style: none;
 }
 
 nav {
-  margin-right: -15px;
-  border-style: solid;
-  border-color: black;
+  justify-content: space-between !important;
+  display: flex !important;
 }
 
 .navbar-text {
@@ -44,7 +37,6 @@ nav ul {
   font-weight: lighter;
   font-family: "Oswald", sans-serif;
   padding-top: 10px;
-  margin-right: 50px;
   text-shadow: 2px 2px 4px #000000;
 }
 
@@ -52,13 +44,7 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 30px;
-  margin-left: 35px;
-}
-
-@media only screen and (max-width: 600px) {
-  nav ul {
-    margin-right: 35px;
-  }
+  margin-left: 15px;
 }
 
 nav a {
@@ -185,33 +171,38 @@ footer .social-links a:hover {
   margin-left: 200px;
 }
 
-.content-container {
-  margin-top: -630px;
-}
-
 #london {
   width: 40%;
-  height: 150%;
+  height: 80%;
+  border-style: solid;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10px;
-  margin-top: 60px;
-  border-style: solid;
-  position: relative;
 }
 
 #london::after {
   content: "";
-  position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-container {
+  position: relative;
+  text-align: center;
+}
+
+#contact-1 {
+  position: absolute;
+  top: 15%;
+  left: 42%;
 }
 
 #contact-lukas {
-  justify-content: center;
   text-align: center;
   text-shadow: 5px 5px black;
   -webkit-text-stroke: 1px black;
@@ -219,20 +210,17 @@ footer .social-links a:hover {
   font-weight: normal;
   font-size: 70px;
   color: white;
-  position: relative;
 }
 
 .contact {
   text-align: center;
   align-items: center;
   justify-content: center;
-  position: relative;
   font-size: 25px;
 }
 
 h4 {
   font-size: 35px;
-  position: relative;
   text-align: center;
   align-items: center;
   justify-content: center;
